@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PracticeTabAndList</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_roll">Roll No</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_cnic">CNIC</string>
+</resources>

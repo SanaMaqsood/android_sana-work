@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanapc.practicetabandlist.MainActivity">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/Tab_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorAccent"
+        android:layout_alignParentTop="true" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/Tab_Layout" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradiant_back_ground"
+    android:gravity="center_horizontal"
+    android:padding="@dimen/margin_avg">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="@dimen/margin_min"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_max"
+            android:gravity="center"
+            android:text="Add Student Data"
+            android:textColor="@color/dark_green"
+            android:textSize="@dimen/text_large"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext"
+            android:gravity="center"
+            android:hint="Name"
+            android:padding="@dimen/margin_max" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_min"
+            android:background="@drawable/bg_edittext"
+            android:gravity="center"
+            android:hint="Marks"
+            android:inputType="number"
+            android:padding="@dimen/margin_max" />
+
+        <Button
+            android:id="@+id/btnalertadd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_min"
+            android:background="@drawable/bg_button"
+            android:onClick="true"
+            android:padding="@dimen/margin_max"
+            android:text="Add"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

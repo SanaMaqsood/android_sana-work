@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PracticeOFAllStuff</string>
+    <string-array name="car_names">
+        <item>Maruti Suzuki Swift</item>
+        <item>Crossover</item>
+        <item>Mercedes-Benz</item>
+        <item>Audi A3</item>
+    </string-array>
+    <string-array name="car_models">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+</resources>

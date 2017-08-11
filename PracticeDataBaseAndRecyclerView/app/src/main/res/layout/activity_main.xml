@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:background="@drawable/gradiant_back_ground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_avg">
+
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button"
+            android:text="@string/add"
+            android:layout_margin="@dimen/margin_min"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btndelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/margin_min"
+            android:background="@drawable/bg_button_red"
+            android:text="@string/delete"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/margin_avg"
+        android:layout_below="@+id/linear1">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+</RelativeLayout>

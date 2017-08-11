@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2" android:textColor="@color/colorPrimaryDark"
+        android:layout_toRightOf="@id/tv1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3" android:textColor="@color/colorPrimaryDark"
+        android:text="RollNO"
+        android:layout_below="@+id/tv1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv4" android:textColor="@color/colorPrimaryDark"
+        android:layout_toRightOf="@+id/tv3"
+        android:layout_below="@+id/tv2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv5" android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/tv3"
+        android:text="Address"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv6" android:textColor="@color/colorPrimaryDark"
+        android:layout_toRightOf="@+id/tv5"
+        android:layout_below="@+id/tv4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv7" android:textColor="@color/colorPrimaryDark"
+        android:text="Education"
+        android:layout_below="@id/tv5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv8" android:textColor="@color/colorPrimaryDark"
+        android:layout_toRightOf="@+id/tv7"
+        android:layout_below="@id/tv6"/>
+
+
+</RelativeLayout>
