@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
  * Created by Sana PC on 10/4/2017.
  */
 
-public class Palindrom extends AppCompatActivity{
+public class PalindromeActivity extends AppCompatActivity{
   char [] array={'A','B','C','B','A'};
     int i=0;
     int j= array.length-1;

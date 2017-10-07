@@ -4,7 +4,7 @@ package com.pk.gov.pitb.email;
  * Created by Sana PC on 10/7/2017.
  */
 
-public class IntegerToAbslute{
+public class IntegerToAbsolute {
 
 
     int x = Math.abs(-5878778);  // for integer use Math.abs

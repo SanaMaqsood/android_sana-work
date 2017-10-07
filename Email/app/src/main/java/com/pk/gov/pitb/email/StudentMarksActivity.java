@@ -7,6 +7,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.pk.gov.pitb.email.dto.Student;
+
 import java.util.ArrayList;
 
 public class StudentMarksActivity extends AppCompatActivity {

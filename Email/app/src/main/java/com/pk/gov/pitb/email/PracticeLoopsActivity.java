@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
  * Created by Sana PC on 10/3/2017.
  */
 
-public class PracticeLoops extends AppCompatActivity {
+public class PracticeLoopsActivity extends AppCompatActivity {
 //    EditText edText;
 //    TextView txtView;
 //    Button btnSubmit;

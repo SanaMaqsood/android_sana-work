@@ -30,11 +30,9 @@ public class RoundUpFloatValue extends AppCompatActivity {
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 float value = Float.valueOf(edInput.getText().toString());
                 int i = Math.round(value);
                 tvShow.setText("Result is =" + i);
-
             }
         });
     }

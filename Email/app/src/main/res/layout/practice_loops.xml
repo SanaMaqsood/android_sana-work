@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.pk.gov.pitb.email.PracticeLoops">
+    tools:context="com.pk.gov.pitb.email.PracticeLoopsActivity">
 
     <EditText
         android:id="@+id/ed_input"

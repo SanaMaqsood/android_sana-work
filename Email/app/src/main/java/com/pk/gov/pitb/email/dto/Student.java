@@ -1,10 +1,10 @@
-package com.pk.gov.pitb.email;
+package com.pk.gov.pitb.email.dto;
 
 /**
  * Created by Raza Mehdi on 10/7/2017.
  */
 
-public class Student{
+public class Student {
     String name;
     int marks;
 
