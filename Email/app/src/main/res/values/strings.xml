@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Email</string>
+    <string name="html">
+<html><body> <b>Sana </b></body></html>
+    </string>
+</resources>
