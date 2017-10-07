@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sanapc.studentdatamanagment.UniversityInputActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="University Name:"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edUniName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Type University Name"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="University City:"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edUniCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Type University City"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="University Country:"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edUniCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Type University Country"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_uni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Add University"
+            android:textAlignment="center"
+            android:textSize="10sp" />
+        <TextView
+        android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Kindly Enter Your Information:"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Student Name:"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/etsName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Type Your Name"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Roll no:"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/etsRollNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Type Your Roll No"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Address:"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/etsAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Type Your Address"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="CNIC:"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/etsCnic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Type Your CNIC"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/btn_std"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Submitted"
+            android:textAlignment="center"
+            android:textSize="10sp" />
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Kindly add Your Course:"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Course Name:"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edCourse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Type Your Course"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Course Id:"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edCourseId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:inputType="number"
+            android:hint="Type Your Course Id"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Add Course"
+            android:textAlignment="center"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Show Detail"
+            android:textAlignment="center"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sanapc.practiceofallstuff.activity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/fragmentone"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/gradiant_back_ground_blue"
+        android:orientation="horizontal" />
+    <LinearLayout
+        android:id="@+id/fragmenttwo"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/gradiant_back_ground_green"
+        android:orientation="horizontal" />
+</LinearLayout>

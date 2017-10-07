@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:id="@+id/linear2"
+   >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/www2"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="35dp"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/radiogroup">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hina"
+            android:checked="false"
+            android:id="@+id/rbtn1"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sana"
+            android:checked="false"
+            android:id="@+id/rbtn2"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sidra"
+            android:checked="false"
+            android:id="@+id/rbtn3"/>
+
+    </RadioGroup>
+
+</LinearLayout>

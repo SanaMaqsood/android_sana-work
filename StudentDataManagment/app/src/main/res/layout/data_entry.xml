@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentLeft="true"
+    android:layout_centerHorizontal="true"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:orientation="vertical"
+    android:paddingBottom="30dp"
+    android:paddingTop="30dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentLeft="true">
+
+        </ImageView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:layout_toRightOf="@id/img"
+            android:paddingLeft="30dp"
+            android:id="@+id/edName"
+            />
+        <EditText
+            android:id="@+id/edAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:layout_below="@id/img"
+            android:paddingLeft="70dp"
+            />
+        <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Education"
+        android:layout_below="@id/edAddress"
+        android:paddingLeft="70dp"
+            android:id="@+id/ededu"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ededu"
+            android:text="Add"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/btnadd"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ededu"
+            android:layout_alignParentRight="true"
+        android:text="Delete"
+            android:id="@+id/btndelete"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Show"
+            android:id="@+id/btn_show"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@mipmap/ic_launcher"
+        android:text="vxcvx"/>
+
+</LinearLayout>
+</RelativeLayout>

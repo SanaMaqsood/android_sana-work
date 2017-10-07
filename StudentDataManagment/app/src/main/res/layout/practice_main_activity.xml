@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/li1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="Name:"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed1"
+        android:layout_toRightOf="@+id/tv1"
+        android:layout_alignParentRight="true">
+
+    </EditText>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/li1"
+    android:id="@+id/li2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:text="Rollno"
+        android:layout_below="@+id/tv1"
+        android:paddingLeft="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed2"
+        android:layout_toRightOf="@+id/tv2"
+        android:layout_below="@+id/ed1"
+        android:paddingLeft="10dp"
+        android:layout_alignParentRight="true"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/li3"
+        android:layout_below="@+id/li2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:text="Address"
+        android:layout_below="@+id/tv2"
+        android:paddingLeft="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed3"
+        android:layout_toRightOf="@+id/tv3"
+        android:layout_below="@+id/ed2">
+
+    </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/li4"
+        android:layout_below="@+id/li3">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv4"
+        android:text="Education"
+        android:layout_below="@+id/tv3"
+        android:paddingLeft="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed4"
+        android:layout_toRightOf="@+id/tv4"
+        android:layout_below="@+id/ed3"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/li4">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnadd"
+        android:text="Add"
+        android:layout_below="@+id/tv4"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btndelete"
+        android:text="Delete"
+        android:layout_toRightOf="@+id/btnadd"
+        android:layout_below="@id/ed4" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnshow"
+        android:text="Show"
+        android:layout_below="@+id/ed4"
+        android:layout_toRightOf="@+id/btndelete"/>
+    </LinearLayout>
+
+</RelativeLayout>
